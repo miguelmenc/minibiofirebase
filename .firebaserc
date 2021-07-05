@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "minibio-firebase": {
+      "hosting": {
+        "minibio-definitivo": [
+          "minibio-firebase"
+        ]
+      }
+    }
+  }
+}

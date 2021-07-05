@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="container-box align-self-center">
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        {{user.displayName}}
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" type="button">
+        <li><a class="dropdown-item" href="#">Perfil</a></li>
+        <li><a class="dropdown-item" href="#">Configuración</a></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><a class="dropdown-item" (click)="logout()" > Cerrar Sessión</a></li>
+      </ul>
+    </div>
+    <button type="button" class="disboton" routerLink="/create-bio" >Crear nueva minibio</button>
+  </div>
+</div>
