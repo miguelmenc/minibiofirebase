@@ -16,9 +16,13 @@ const routes: Routes = [
     component: ProfileComponent, canActivate: [AuthGuard]
   },
   {
-    path: 'create-bio',
+    path: 'create-bio/nuevo',
     component: CreateBioComponent, canActivate: [AuthGuard]
   },
+  {
+    path: 'create-bio/:id',
+    component: CreateBioComponent, canActivate: [AuthGuard]
+  }
 ];
 
 @NgModule({
